@@ -1,10 +1,12 @@
+//C program to swap 2 numbers by using function.
+
 #include <stdio.h>
 
-void swapV(int x, int y)
-{ 
-    x = x + y;
-    y = x - y;
-    x = x - y; 
+void swapV(int *x, int *y)
+{
+    *x = *x + *y;
+    *y = *x - *y;
+    *x = *x - *y;
 }
 
 void main()
@@ -14,10 +16,10 @@ void main()
     scanf("%d", &a);
     printf("\n value of b before swaping: ");
     scanf("%d", &b);
-    
-    swapV(a, b);
-    
-    printf("\n value of a after swaping %p", &a);
-    printf("\n value of b after swaping %p\n", &b);
+
+    swapV(&a, &b);
+
+    printf("\n value of a after swaping %d", a);
+    printf("\n value of b after swaping %d\n", b);
 }
 
