@@ -7,6 +7,7 @@ void main()
 	scanf("%i", &n);
 	int a[n];
 
+
 	for(i = 0; i < n; ++i)
 	{
 		printf("Address of a[%i]: %p\n", i, &a[i]);

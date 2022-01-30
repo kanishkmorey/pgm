@@ -23,7 +23,7 @@ void multiplyMatrix(int result[][10])
 	// Taking input until
 	// 1st matrix columns is not equal to 2nd matrix row
 	while (c1 != r2 )
-	{
+	{ 	
 		printf("Error! Enter rows and columns again.\n");
 		printf("Enter rows and columns for the first matrix: ");
 		scanf("%d%d", &r1, &c1);
