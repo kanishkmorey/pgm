@@ -7,7 +7,7 @@ int main()
     float area;
     int radius = 1;
     area = circle(radius);
-    printf("\n%f", area);
+    printf("\n%f\n", area);
 }
 
 float circle(int r)
