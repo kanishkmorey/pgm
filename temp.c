@@ -10,7 +10,6 @@ void array(int c[])
 {
     for (int i = 0; i <= 5; i++)
     {
-        printf(" %d", c[i]);
-        
+        printf(" %d", c[i]);  
     }
 }

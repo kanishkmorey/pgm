@@ -5,11 +5,8 @@
 int n = 1;
 void printFifty()
 {
-
-    {
-        printf("\n%d\n", n);
-        n++;
-    }
+    printf("%d ", n);
+    n++;
     if(n <= 50)
     {
         printFifty();
