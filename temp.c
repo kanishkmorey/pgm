@@ -1,15 +1,11 @@
 #include <stdio.h>
-void array(int c[]);
+
 int main()
 {
-    int a[6] = {2, 3, 4, 5, 6, 7};
-    array(a);
+    int str[]={'g','w','a','L','i','o','r'};
+    printf("A%c ",str);
+    printf("A%s ",str);
+    printf("A%c ",str[0]);
     return 0;
-}
-void array(int c[])
-{
-    for (int i = 0; i <= 5; i++)
-    {
-        printf(" %d", c[i]);  
-    }
+
 }

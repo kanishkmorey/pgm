@@ -9,4 +9,5 @@ void main()
     y = x - y;
     x = x - y;
     printf("\nx = %d\ny = %d\n", x, y); 
+    printf()
 }
