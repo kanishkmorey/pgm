@@ -12,7 +12,7 @@ int main() {
 
   for (int i = 0; line[i] != '\0'; ++i) {
 
-    line[i] = tolower(line[i]);
+
 
     if (line[i] == 'a' || line[i] == 'e' || line[i] == 'i' ||
         line[i] == 'o' || line[i] == 'u') {
