@@ -15,6 +15,6 @@ int main() {
             ++count;
     }
 
-    printf("Frequency of %c = %d", ch, count);
+    printf("Frequency of %c = %d\n", ch, count);
     return 0;
 }
