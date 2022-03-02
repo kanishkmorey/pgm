@@ -24,7 +24,9 @@ void print_square(int n)
  
 int main()
 {
-    int rows = 8;
+    int rows;
+    printf("Enter the number of rows: ");
+	scanf("%d",&rows);
     print_square(rows);
     return 0;
 }
