@@ -1,23 +1,28 @@
 #include <iostream>
 
+using namespace std;
+
 class yoda
 {
     private:
     int a,b,c;
     public:
-    void add();
+    void koda()
+
 };
 
-void yoda::add()
+void yoda::koda()
 {
-    cin>>a>>b;
-    c = a + b;
-    cout<<endl<<"sum is"<<c<<endl;
-}
- 
+        cout<<"chal gaya";
+        cin>>a>>b;
+        c = a + b;
+        cout<<endl<<"sum is"<<c<<endl;
+    }  
+
 int main()
 {
+    int a=10;
     yoda wan;
-    wan.add();
+
     return 0;
 }
