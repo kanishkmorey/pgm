@@ -1,7 +1,7 @@
 #include<iostream>
 
 
-a
+a asas
 using namespace std;
 
 class 
